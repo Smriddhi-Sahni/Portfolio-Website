@@ -1,0 +1,10 @@
+a=input("enter character")
+if len(a)==1:
+    if ord(a) in (65,91):
+        print("the character is uppercase")
+    elif ord(a) in (97, 123):
+        print("the character is lowercase")
+    else:
+        print("the entered character is not an alphabet")
+else:
+    print("enter valid input")
